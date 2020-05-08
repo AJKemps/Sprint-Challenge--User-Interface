@@ -87,7 +87,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
 }
 
 header nav a {
@@ -257,6 +257,7 @@ header nav a {
 .bottom-content{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 
 .bottom-content .text-container {
@@ -274,17 +275,18 @@ footer {
 }
 
 footer nav {
-    width: 0%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 2%;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    margin: 0 5%;
 }
 /*  tablet responsive section */
 
@@ -333,7 +335,7 @@ footer nav a {
         justify-content: space-between;
         align-items: center;
         padding: 20px 15%;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .middle-content h2{
         text-transform: none;
