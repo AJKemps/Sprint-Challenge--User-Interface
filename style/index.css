@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 62.5%;
 	font: inherit;
     vertical-align: baseline;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -75,6 +75,7 @@ p {
 }
 
 header{
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -358,6 +359,7 @@ footer nav a {
         justify-content: center;
         align-items: center;
     }
+
     header nav {
         width: 100%;
         display: flex;
@@ -367,6 +369,17 @@ footer nav a {
         font-size: 1.4rem;
         padding: 3.5% 0%;
     }
+
+    .middle-content .boxes {
+        
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 52%;
+        max-width: 170px;
+    }
+
     .bottom-content .text-container {
         width: 70%;
         padding-top: 2%;
