@@ -258,7 +258,7 @@ header nav a {
     display: flex;
     flex-direction: row;
     padding: 0% 5%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
 
 .bottom-content .text-container {
@@ -333,7 +333,7 @@ footer nav a {
     footer nav {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding: 20px 15%;
         font-size: 1.3rem;
